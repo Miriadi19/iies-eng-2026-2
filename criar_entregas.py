@@ -3,11 +3,11 @@ import shutil
 from pathlib import Path
 
 ALUNOS_JSON = Path("alunos.json")
+#comentario TODO
 
 
 def criar_entregas(tarefa: str):
     """
-    Cria a pasta de entrega de cada aluno dentro de uma tarefa.
 
     Uso:
         python criar_entregas.py 02-variaveis-e-prints
